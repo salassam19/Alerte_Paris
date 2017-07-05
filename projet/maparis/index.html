@@ -1,0 +1,63 @@
+<!DOCTYPE >
+<html html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+	<title>Carte Paris</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<!-- Elément Google Maps indiquant que la carte doit être affiché en plein écran et
+		qu'elle ne peut pas être redimensionnée par l'utilisateur -->
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="mapa.css">
+<!--Creation de la carte google et thèmes-->	
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/29/9/intl/fr_ALL/common.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/29/9/intl/fr_ALL/map.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/29/9/intl/fr_ALL/util.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/29/9/intl/fr_ALL/controls.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/29/9/intl/fr_ALL/places_impl.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/29/9/intl/fr_ALL/marker.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/29/9/intl/fr_ALL/infowindow.js"></script>
+
+	<style type="text/css">.gm-style {
+        font: 400 11px Roboto, Arial, sans-serif;
+        text-decoration: none;
+      }
+      .gm-style img { max-width: none; }</style>
+	<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/29/9/intl/fr_ALL/onion.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/29/9/intl/fr_ALL/stats.js"></script>
+
+
+	<script type="text/javascript">
+			function initialiser() {
+				var latlng = new google.maps.LatLng(48.853, 2.3488);
+				//objet contenant des propriétés avec des identificateurs prédéfinis dans Google Maps permettant
+				//de définir des options d'affichage de notre carte
+				var options = {
+					center: latlng,
+					zoom: 6,
+					mapTypeId: google.maps.MapTypeId.ROADMAP
+				};
+	
+				//constructeur de la carte qui prend en paramêtre le conteneur HTML
+				//dans lequel la carte doit s'afficher et les options
+				var carte = new google.maps.Map(document.getElementById("carte"), options);
+			
+				var markerOptions = {
+    				position: new google.maps.LatLng(48.853, 2.3488)
+				};
+				var marker = new google.maps.Marker(markerOptions);
+				marker.setMap(map);
+			}
+
+	</script>
+	</head>
+
+	<body onload="initialiser()">
+		<div id="carte" style="width:100%; height:100%"></div>
+
+		<input type="text" id="autocomplete" placeholder="Indiquez un lieu" autocomplete="off">
+
+
+
+</body>
+</html>
