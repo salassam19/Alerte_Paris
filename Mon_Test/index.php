@@ -15,7 +15,7 @@
 		<?php include('logo.php') ?>
 
 		<!-- .cd-primary-nav -->
-		<?php include('nav1.php') ?>
+		<?php include('formulaire_login_p1.php') ?>
 
 		<!-- .cd-secondary-nav -->
 		<?php include('nav2.php') ?>

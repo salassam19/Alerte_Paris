@@ -15,14 +15,11 @@
 		<?php include('logo.php') ?>
 
 		<!-- .cd-primary-nav -->
-		<?php include('nav1.php') ?>
+		<?php include('formulaire_login_p1.php') ?>
 
 		<!-- .cd-secondary-nav -->
 		<?php include('nav2.php') ?>
 	</header>
-	<div>
-		<?php include('corps_indx.php') ?>
-	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 	<script>
 		if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');

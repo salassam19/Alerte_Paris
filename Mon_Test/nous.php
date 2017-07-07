@@ -14,41 +14,41 @@
 </head>
 <body>
 	<header class="cd-auto-hide-header">
+		<!-- .logo -->
 		<?php include('logo.php') ?>
 
 		<!-- .cd-primary-nav -->
-		<?php include('nav1.php') ?>
+		<?php include('formulaire_login_p1.php') ?>
 
 		<!-- .cd-secondary-nav -->
 		<?php include('nav2.php') ?>
 	</header>
 	<div>
-		<?php include('corps_indx.php') ?>
-	</div>
-	<div>
-		<img class="veronica" src="">
-		<h4>Veronica OCHOA TEJEDA</h4>
-		<p>Je suis mexicaine du gang des ms-13 donc c'est la note max ou tu sortira pas de la salle vivant</p>
-	</div>
-	<div>
-		<img class="vincent" src="">
-		<h4>Vincent DARRE</h4>
-		<p>Je suis rogolo :P</p>
-	</div>
-	<div>
-		<img class="aurore" src="">
-		<h4>Aurore TRINCI</h4>
-		<p>Je rigole trop</p>
-	</div>
-	<div>
-		<img class="salim" src="">
-		<h4>Salim Slim ASSAMEUR</h4>
-		<p>Je suis sympa, rigolo et super lourd dans tous les sens du term</p>
-	</div>
-	<div>
-		<img class="david" src="">
-		<h4>David AMORIM</h4>
-		<p>Je suis toujours dans mon code</p>
+		<div>
+			<img id="veronica" src="..." alt="..." class="img-circle">
+			<h4>Veronica OCHOA TEJEDA</h4>
+			<p>Je suis mexicaine du gang des ms-13 donc c'est la note max ou tu sortira pas de la salle vivant</p>
+		</div>
+		<div>
+			<img id="vincent" src="..." alt="..." class="img-circle">
+			<h4>Vincent DARRE</h4>
+			<p>Je suis rogolo :P</p>
+		</div>
+		<div>
+			<<img id="aurore" src="..." alt="..." class="img-circle">
+			<h4>Aurore TRINCI</h4>
+			<p>Je rigole trop</p>
+		</div>
+		<div>
+			<img id="salim" src="..." alt="..." class="img-circle">
+			<h4>Salim ASSAMEUR</h4>
+			<p>Je suis sympa, rigolo et super lourd dans tous les sens du term</p>
+		</div>
+		<div>
+			<img id="david" src="..." alt="..." class="img-circle">
+			<h4>David AMORIM</h4>
+			<p>Je suis toujours dans mon code</p>
+		</div>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 	<script>

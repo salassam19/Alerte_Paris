@@ -1,22 +1,16 @@
-<!-- Login and Sign In -->
-<ul id="cd-navigation">
-	<li>
-		<form class="form-inline">
-			<div class="form-group">
-				<label class="sr-only" for="exampleInputEmail3">Email address</label>
-				<input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
-			</div>
-			<div class="form-group">
-				<label class="sr-only" for="exampleInputPassword3">Password</label>
-				<input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
-			</div>
-			<div class="checkbox">
-				<label>
-					<input type="checkbox"> Remember me
-				</label>
-			</div>
-			<button type="submit" class="btn btn-default" name="Validez">Login</button>
-		</form>
-	</li>
-	<a href="../views/fr/index_main_form_fr.php"><button type="submit" class="btn btn-default" name="Validez">Sign-In</button></a>
-</ul>
+<!-- .cd-primary-nav -->
+<nav class="cd-primary-nav">
+	<!-- .nav-trigger -->
+	<a href="#cd-navigation" class="nav-trigger">
+		<span>
+			<em aria-hidden="true">
+				Menu
+			</em>
+		</span>
+	</a>
+	<!-- Login and Sign In -->
+	<nav id="cd-navigation">
+		<a href="login.php"><button type="submit" class="btn btn-default btn-lg" name="Validez">Login</button></a>
+		<a href="../views/fr/index_main_form_fr.php"><button type="submit" class="btn btn-default btn-lg" name="Validez">Sign-In</button></a>
+	</nav>
+</nav>
