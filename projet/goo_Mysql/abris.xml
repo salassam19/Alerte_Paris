@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.6.4
+- https://www.phpmyadmin.net
+-
+- Client :  127.0.0.1
+- Généré le :  Ven 07 Juillet 2017 à 10:23
+- Version du serveur :  5.7.14
+- Version de PHP :  5.6.25
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="alerte_paris" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="abris">
+                CREATE TABLE `abris` (
+                  `Id` int(11) NOT NULL AUTO_INCREMENT,
+                  `Nom` char(20) CHARACTER SET utf8 NOT NULL,
+                  `Prenom` char(10) CHARACTER SET utf8 NOT NULL,
+                  `Adresse` varchar(255) CHARACTER SET utf8 NOT NULL,
+                  `CP` varchar(5) CHARACTER SET utf8 NOT NULL,
+                  `Lat` float NOT NULL,
+                  `lng` float NOT NULL,
+                  `Type` varchar(30) NOT NULL,
+                  PRIMARY KEY (`Id`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COMMENT='Personnes qui vont herberger';
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de données :  'alerte_paris'
+    -->
+    <database name="alerte_paris">
+        <!-- Table abris -->
+        <table name="abris">
+            <column name="Id">1</column>
+            <column name="Nom">Sasa</column>
+            <column name="Prenom">Salim</column>
+            <column name="Adresse">8 Rue Francis Carco</column>
+            <column name="CP">75018</column>
+            <column name="Lat">48.8892</column>
+            <column name="lng">2.35636</column>
+            <column name="Type">prive</column>
+        </table>
+        <table name="abris">
+            <column name="Id">2</column>
+            <column name="Nom">Au</column>
+            <column name="Prenom">Aura</column>
+            <column name="Adresse">1 Square de Clignqncourt</column>
+            <column name="CP">75018</column>
+            <column name="Lat">48.8923</column>
+            <column name="lng">2.34594</column>
+            <column name="Type">prive</column>
+        </table>
+        <table name="abris">
+            <column name="Id">4</column>
+            <column name="Nom">Da</column>
+            <column name="Prenom">David</column>
+            <column name="Adresse">21 Boulevard de Rochechechouart</column>
+            <column name="CP">75009</column>
+            <column name="Lat">48.8832</column>
+            <column name="lng">2.3462</column>
+            <column name="Type">prive</column>
+        </table>
+        <table name="abris">
+            <column name="Id">5</column>
+            <column name="Nom">Mi</column>
+            <column name="Prenom">Michel</column>
+            <column name="Adresse">48 rue de Provence</column>
+            <column name="CP">75009</column>
+            <column name="Lat">48.8744</column>
+            <column name="lng">2.33552</column>
+            <column name="Type">prive</column>
+        </table>
+        <table name="abris">
+            <column name="Id">6</column>
+            <column name="Nom">Sa</column>
+            <column name="Prenom">Sandrine</column>
+            <column name="Adresse">13 Avenue de la Porte d Italie</column>
+            <column name="CP">75013</column>
+            <column name="Lat">48.8175</column>
+            <column name="lng">2.36031</column>
+            <column name="Type">prive</column>
+        </table>
+        <table name="abris">
+            <column name="Id">7</column>
+            <column name="Nom">Vi</column>
+            <column name="Prenom">Vincent</column>
+            <column name="Adresse">4 rue des Panoyaux</column>
+            <column name="CP">75020</column>
+            <column name="Lat">48.8662</column>
+            <column name="lng">2.3847</column>
+            <column name="Type">prive</column>
+        </table>
+        <table name="abris">
+            <column name="Id">8</column>
+            <column name="Nom">La</column>
+            <column name="Prenom">Laure</column>
+            <column name="Adresse">42 Avenue des Gobellins</column>
+            <column name="CP">75013</column>
+            <column name="Lat">48.835</column>
+            <column name="lng">2.35302</column>
+            <column name="Type">prive</column>
+        </table>
+        <table name="abris">
+            <column name="Id">9</column>
+            <column name="Nom">To</column>
+            <column name="Prenom">Tony</column>
+            <column name="Adresse">66 Avenue du Maine</column>
+            <column name="CP">75014</column>
+            <column name="Lat">48.839</column>
+            <column name="lng">2.32183</column>
+            <column name="Type">prive</column>
+        </table>
+    </database>
+</pma_xml_export>

@@ -1,0 +1,19 @@
+﻿INSERT INTO `abris` (`Id`,`Nom`, `Adresse`, `Lat`, `Lng`, `Type`) VALUES ('1','Salim ', '8 Rue Francis Carco, 75018, Paris', '48.889237', '2.356357', 'prive');
+INSERT INTO `abris` (`Id`,`Nom`, `Adresse`, `Lat`, `Lng`, `Type`) VALUES ('2','Aura ', '1 Square de Clignqncourt, 75018, Paris', '48.892316', '2.345940', 'prive');
+INSERT INTO `abris` (`Id`,`Nom`, `Adresse`, `Lat`, `Lng`, `Type`) VALUES ('3','David', '21 Boulevard de Rochechechouart, 75009, Paris', '48.883160', '2.346197', 'prive');
+INSERT INTO `abris` (`Id`,`Nom`, `adresse`, `lat`, `lng`, `type`) VALUES ('4','Michel', '48 rue de Provence, 75009, 75009, Paris', '48.874397', '2.335515', 'prive');
+INSERT INTO `abris` (`Id`,`Nom`, `Adresse`, `Lat`, `Lng`, `Type`) VALUES ('5','Sandrine', '13 Avenue de la Porte d'Italie, 75013, Paris', '48.817479', '2.360309', 'prive');
+INSERT INTO `abris` (`Id`,`Nom`, `Adresse`, `Lat`, `Lng`, `Type`) VALUES ('6','Vincent', '4 rue des Panoyaux, 75020, Paris', '48.866228', '2.384704', 'prive');
+INSERT INTO `abris` (`Id`,`Nom`, `Adresse`, `Lat`, `Lng`, `Type`) VALUES ('7','Laure', '42 Avenue des Gobellins, 75013, Paris', '48.835043', '2.353023', 'prive');
+INSERT INTO `abris` (`Id`,`Nom`, `Adresse`, `Lat`, `Lng`, `Type`) VALUES ('8','Tony', '66 Avenue du Maine, 75014, Paris', '48.839037', '2.321827', 'priv
+
+INSERT INTO `abris` (`Nom`, `Prenom`, `Adresse`, `CP`, `Lat`, `lng`, `Type`) VALUES ('Da', 'David', '21 Boulevard de Rochechechouart', '75009', '48.883160', '2.346197', 'prive');
+INSERT INTO `abris` (`Nom`, `Prenom`, `Adresse`, `CP`, `Lat`, `lng`, `Type`) VALUES ('Mi', 'Michel', '48 rue de Provence', '75009', '48.874397', '2.335515', 'prive');
+INSERT INTO `abris` (`Nom`, `Prenom`, `Adresse`, `CP`, `Lat`, `lng`, `Type`) VALUES ('Sa', 'Sandrine', '13 Avenue de la Porte d'Italie', '75013', '48.874397', '2.335515', 'prive');
+
+
+
+INSERT INTO `abris` (`Nom`, `Prenom`, `Adresse`, `CP`, `Lat`, `lng`, `Type`) VALUES ('Sa', 'Sandrine', '13 Avenue de la Porte d'Italie', '75013','48.817479', '2.360309', 'prive');
+INSERT INTO `abris` (`Nom`, `Prenom`, `Adresse`, `CP`, `Lat`, `lng`, `Type`) VALUES ('Vi', 'Vincent', '4 rue des Panoyaux', '75020', '48.866228', '2.384704', 'prive');
+INSERT INTO `abris` (`Nom`, `Prenom`, `Adresse`, `CP`, `Lat`, `lng`, `Type`) VALUES ('La', 'Laure', '42 Avenue des Gobellins', '75013', '48.835043', '2.353023', 'prive');
+INSERT INTO `abris` (`Nom`, `Prenom`, `Adresse`, `CP`, `Lat`, `lng`, `Type`) VALUES ('To', 'Tony', '66 Avenue du Maine', '75014', '48.839037', '2.321827', 'prive');
