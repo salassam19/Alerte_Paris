@@ -8,6 +8,7 @@
 <body>
 
 	<h2>Modifier mes informations</h2>
+<br>
 
 <form action="modif.php" method="POST">
 
@@ -28,27 +29,31 @@
 
 		<input type="hidden" name="id" value="<?= $info['id'] ?>">
 
-	<p>
-		<label>Nom :</label>
-		<input type="text" id="nom" name="nom" value="<?= $info['nom'] ?>">
-	</p>
+	<form class="form-horizontal" >
 
-	<p>
-		<label>Prenom :</label>
-		<input type="text" id="prenom" name="prenom" value="<?= $info['prenom']?>">
-	</p>
+	<div class="form-group">
+		<label class="col-sm-2 control-label">Nom :</label>
+		<input type="text" id="nom" name="nom" class="form-control" value="<?= $info['nom'] ?>">
+	</div>
 
-	<p>
-		<label>Adresse Email :</label>
-		<input type="email" id="mail" name="mail" value="<?= $info['mail'] ?>">
-	</p>
+	<div class="form-group">
+		<label class="col-sm-2 control-label">Prenom :</label>
+		<input type="text" id="prenom" name="prenom" class="form-control" value="<?= $info['prenom']?>">
+	</div>
 
-	<p>
-		<label>Téléphone portable :</label>
-		<input type="text" id="mobile" name="mobile" value="<?= $info['mobile'] ?>">
-	</p>
+	<div class="form-group">
+		<label class="col-sm-2 control-label">Adresse Email :</label>
+		<input type="email" id="mail" name="mail" class="form-control" value="<?= $info['mail'] ?>">
+	</div>
 
-	<input type="submit" class="btn btn-primary" value="Enregistrer les modifications"/>
+	<div class="form-group">
+		<label class="col-sm-2 control-label">Téléphone portable :</label>
+		<input type="text" id="mobile" name="mobile" class="form-control" value="<?= $info['mobile'] ?>">
+	</div>
+<br>
+		<input type="submit" class="btn btn-primary" value="Enregistrer les modifications"/>
+
+	</form>
 
 <?php 
 	}
