@@ -38,16 +38,7 @@
 </section> <!-- .cd-hero -->
 
 <nav class="cd-secondary-nav">
-	<ul>
-		<li><a href="nous.php">Qui nous sommes </a></li>
-		<li><a href="Info_Important.php">Info important</a></li>
-		<li><a href="Carte.php">Cartes</a></li>
-		<li><a href="Archive.php">Archives</a></li>
-		<li><a href="Image.php">Photos</a></li>
-		<li><a href="Blog.php">Blog</a></li>
-		<li><a href="contactV.php">Contact</a></li>
-
-	</ul>
+	<?php include('nav2.php') ?>
 </nav> <!-- .cd-secondary-nav -->
 
 <main class="cd-main-content sub-nav-hero">
@@ -55,8 +46,6 @@
 		<?php include('corps_indx.php') ?>
 	</div>
 </main> 
-
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1zAHgpTqKBW_OgeY8pPh6_f41ge0" width="640" height="480"></iframe>
 
 
 	<footer></footer>
