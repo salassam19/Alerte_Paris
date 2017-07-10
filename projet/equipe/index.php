@@ -23,27 +23,12 @@
 
 <!--Barre de navegation et logo  -->
 <header class="cd-auto-hide-header">
-<?php include('logo.php') ?>
-<div class="logo"><a href="#0"><img src="img/logoA.png" alt="Logo"></a></div>
+	<header class="cd-auto-hide-header">
+		<?php include('logo.php') ?>
 
-	<nav class="cd-primary-nav">
-	<?php include('formulaire_login_p1.php') ?>
-
-		<a href="#cd-navigation" class="nav-trigger">
-			<span>
-				<em aria-hidden="true"></em>
-				Menu
-			</span>
-	
-	 <!--.cd-primary-nav -->
-<!-- Login and Sign In -->
-	<nav id="cd-navigation">
-		<a href="login.php"><button type="submit" class="btn btn-default btn-lg" name="Validez">Login</button></a>
-		<a href="index_main_form_fr.php"><button type="submit" class="btn btn-default btn-lg" name="Validez">Sign-In</button></a>
-	</nav>
-</nav>
-
-
+		<!-- .cd-primary-nav -->
+		<?php include('formulaire_login_p1.php') ?>
+	</header>
 </header>
 
 <section class="cd-hero">
@@ -61,27 +46,14 @@
 		<li><a href="Image.php">Photos</a></li>
 		<li><a href="Blog.php">Blog</a></li>
 		<li><a href="contactV.php">Contact</a></li>
-		<li><a class="twitter-timeline" href="https://twitter.com/AlerteParis"><img src="img/tw.png"></a></li>
-		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 	</ul>
 </nav> <!-- .cd-secondary-nav -->
 
 <main class="cd-main-content sub-nav-hero">
 	<div>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, quos, voluptate, sunt, in suscipit quibusdam quis dignissimos eligendi repellendus ipsam exercitationem adipisci nostrum fugit accusamus quae cum nisi accusantium eaque.
-		</p>
-
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit
-
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, quos, voluptate, sunt, in suscipit quibusdam quis dignissimos eligendi repellendus ipsam exercitationem adipisci nostrum fugit accusamus quae cum nisi accusantium eaque.
-		</p>
-	
+		<?php include('corps_indx.php') ?>
 	</div>
-
 </main> 
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1zAHgpTqKBW_OgeY8pPh6_f41ge0" width="640" height="480"></iframe>
