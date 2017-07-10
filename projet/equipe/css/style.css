@@ -161,7 +161,7 @@ a {
   display: inline-block;
   float: right;
   height: 100%;
-  padding-right: 5%;
+  padding-right: 1%;
 }
 .cd-primary-nav > ul {
   position: absolute;
@@ -178,7 +178,7 @@ a {
   display: block;
   height: 50px;
   line-height: 50px;
-  padding-left: 5%;
+  padding-left: 1%;
   color: #25283D;
   font-size: 1.8rem;
   border-top: 1px solid #f2f2f2;
@@ -444,7 +444,8 @@ Intro Section
   width: 100%;
   margin-top: 60px;
   height: 300px;
-  background: url(../img/portadaAlerta.png) no-repeat center center;
+ /* background: url(../img/portadaAlerta.png) no-repeat center center;*/
+  background: url(carousel.php);
   background-size: cover;
 }
 .cd-hero .cd-hero-content {

@@ -27,6 +27,7 @@
 	</header>
 	<section class="cd-hero">
 		<div class="cd-hero-content">
+			<?php include('carousel.php') ?>
 			<!-- your content here -->
 		</div>
 	</section> <!-- .cd-hero -->
