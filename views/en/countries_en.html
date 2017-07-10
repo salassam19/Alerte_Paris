@@ -1,40 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Countries</title>
+	<link rel="stylesheet" type="text/css" href="../../style_form.css">
+</head>
+<body>
 
-	<head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="style_form.css">
-		<title>Registration - Alerte Paris</title>
-	</head>
-
-	<body>
-
-		<h4>Registration</h4>
-		<p>These informations can be modified at any time.</p>
-		<p>Fields marked with an asterisk are required.</p><br><br>
-
-		<form onsubmit="return verif_form()"">
-
-		<!-- On demande les infos nécessaires à la création d'un compte !-->
-			<div>
-				<label for="last_name">Last Name : <span class="asterisque">*</span></label>
-				<input class="required champ one_line"  type="text" name="last_name" value="" required><br><br>
-			</div>
-
-			<div>
-				<label for="first_name">First Name : <span class="asterisque">*</span></label>
-				<input class="required champ one_line" type="text" name="first_name" value="" required><br><br>
-			</div>
-
-			<div>
-				<label for="mobile_phone">Mobile Phone : <span class="asterisque">*</span></label>
-				<input class="required champ one_line" type="number" name="mobile_phone" value="" required><br><br>
-			</div>
-
-			<div>
-				<label for="country">Country : <span class="asterisque">*</span></label>
-				<select class="required champ">
-					<option value="select" label="Please select your country"></option>
+	<div>
+		<label class="label" for="country">Country : <span class="asterisque">*</span></label>
+			<select class="required champ one_line">
+				<option value="select" label="Please select your country"></option>
 					<optgroup id="country-optgroup-Africa" label="Africa">
 						<option value="DZ" label="Algeria">Algeria</option>
 						<option value="AO" label="Angola">Angola</option>
@@ -299,51 +275,5 @@
 				</select><br><br>
 			</div>
 
-			<!-- On demande à l'utilisateur les infos son id (adresse email) et son mot de passe !-->
-			<div>
-				<label for="email">Email : <span class="asterisque">*</span></label>
-				<input class="required champ one_line email" type="email" name="email" value="" required><br><br>
-			</div>
-
-			<div>
-				<label for="password">Password : <span class="asterisque">*</span></label>
-				<input class="required champ one_line" type="password" name="password" value="" required><br><br>
-			</div>
-
-			<div>
-				<label for="conf_password">Please confirm your password: <span class="asterisque">*</span></label>
-				<input class="required one_line" type="password" name="conf_password" value="" required><br><br><br>
-			</div>
-
-			<!-- On demande à l'utilisateur s'il souhaite héberger des personnes sinistrées !-->
-			<div>
-				<input type="checkbox" name="host">
-				<label for="host">I would like to host people affected by natural or industrial disaster.</label><br><br><br>
-			</div>
-
-			<!-- Le choix fait par l'utilisateur le dirigera vers le formulaire correspondant (particulier ou professionnel) !-->
-			<div>
-				<p>I am : </p>
-				<input type="radio" name="individual"><label> A private user</label><br>
-				<input type="radio" name="pro_and_indiv"><label> A professionnal user</label><br><br><br><br>
-			</div> 
-
-			<!-- Checkbox à cocher pour que l'utilisateur n'ai pas à introduire à chaque connexion son id et son password !-->
-			<div>
-				<input type="checkbox" name="remember_me">
-				<label for="remember_me">Remember me</label><br><br><br>
-			</div>
-
-			<div>
-				<input type="submit" name="registration" value="Send">
-			</div>
-
-			</form>
-
-
-
-	
-
-	</body>
-
+</body>
 </html>

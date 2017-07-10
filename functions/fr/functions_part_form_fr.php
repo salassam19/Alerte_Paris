@@ -8,7 +8,7 @@
 				if (is_int($value)) {
 					var_dump("Le code postal est valide.");
 				} else {
-					header("Location:part_form_fr.php");
+					alert ("Le code postal n'est pas valide.");
 				}
 			}
 		} else {

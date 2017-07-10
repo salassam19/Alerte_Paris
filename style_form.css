@@ -1,7 +1,49 @@
-body, input, optgroup, option {
+body {
 	font-family: Calibri, Arial, Serif;
 	font-size: 1em;
 }
 h4 {
 	font-size: 2em;
+	color: #25283D;
+	text-align: center;
+	margin-bottom: 20px;
+}
+p {
+	color: #25283D;
+	margin-top: 0;
+	font-size: 1.1em;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+form {
+	position:absolute;
+	margin-left: -450px;
+	width: 1000px;
+	left: 55%;
+	text-align: left;
+}
+.bold_italic {
+	font-size: 1em;
+	color: #000;
+	font-style: italic;
+}
+.label {
+	display: block;
+	float: left;
+	width: 350px;
+}
+.one_line {
+	width: 300px;
+	height: 30px;
+}
+em {
+	font-size: 0.8em;
+}
+.asterisque {
+	font-weight: bold;
+	color: #B50E14;
+}
+.italic {
+	font-style: italic;
 }

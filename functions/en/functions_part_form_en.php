@@ -6,9 +6,9 @@
 			if ($key === "post_code") {
 				// on vérifie si le code postal est un entier
 				if (is_int($value)) {
-					var_dump("Le code postal est valide.");
+					var_dump("The post code is ok.");
 				} else {
-					header("Location:part_form_fr.php");
+					alert ("The post code is not valid.");
 				}
 			}
 		} else {
