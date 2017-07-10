@@ -1,10 +1,4 @@
-<?php
-
-	session_start();
-
-	include ('bdd.php');
-
-?>
+<?php include('index.php') ?>
 
 <!DOCTYPE html>
 <html>
@@ -15,35 +9,44 @@
 
 <?php
 
-	$Us;
+session_start();
+
+	$pseudo = $_POST['pseudo'];
+
+	echo "Bienvenue <br/>".$_SESSION['pseudo'];
 
 
-	if (isset($_GET['id']) ){
-		
+	$bdd = new PDO('mysql:host=localhost;dbname=clients', "root", "");
 
-		$id = intval($_GET['id']);
 
-		//On verifie que lutilisateur existe
-        $User = mysql_query('SELECT `nom`, `prenom`, `mail`, `mobile` FROM `particuliers` WHERE id="'.$id.'"');
-	
-		if (mysql_num_rows($User)>0) {
-			//On affiche les données de l'utilisateur
-			$Us = mysql_fetch_array($User);
-		}
+
+	$reponse = $bdd->query('SELECT * FROM particuliers');
+
+	while ($info = $reponse->fetch()) {
+?>		
+
+		<label><strong>Bienvenue</strong></label>
+		<?php echo $info['prenom'], " ", $info['nom'], '<br/>' ?>
+
+		<dl>
+		<dt><label><strong>Adresse Email :</strong></label></dt>
+		<?php echo '<dd>', $info['mail'], " ", '</dd><br/>'?>
+		</dl>
+
+		<dl>
+		<dt><label><strong>Téléphone mobile :</strong></label></dt>
+		<?php echo '<dd>', $info['mobile'], " ", '</dd><br/>'?>
+		</dl>
+
+		<input type="submit" name="modifier" value="Modifier" <a href="form_modif.php?numC="<?= $info['id']?>"></a>
+
+		echo "<td><a href='form_modif.php?numC=". $info['id'] ."'>Modifier</a></td>";
+
+<?php	
+
 	}
+
 ?>
-
-<p>Mon compte <?php $Us = mysql_fetch_array($User); echo htmlentities($Us['prenom']); ?> :</p>
-
-<table style="width: 500px;">
-	<tr>
-		<td>
-			Email : <?php echo htmlentities($Us['mail']); ?><br />
-
-			Mobile : <?php echo htmlentities($Us['mobile']); ?><br />
-		</td>
-	</tr>
-</table>
 
 </body>
 </html>
