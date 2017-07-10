@@ -9,15 +9,8 @@
 
 <?php
 
-session_start();
-
-	$pseudo = $_POST['pseudo'];
-
-	echo "Bienvenue <br/>".$_SESSION['pseudo'];
-
 
 	$bdd = new PDO('mysql:host=localhost;dbname=clients', "root", "");
-
 
 
 	$reponse = $bdd->query('SELECT * FROM particuliers');
@@ -25,7 +18,7 @@ session_start();
 	while ($info = $reponse->fetch()) {
 ?>		
 
-		<label><strong>Bienvenue</strong></label>
+		<label><h3>Bienvenue </h3></label>
 		<?php echo $info['prenom'], " ", $info['nom'], '<br/>' ?>
 
 		<dl>
@@ -38,11 +31,8 @@ session_start();
 		<?php echo '<dd>', $info['mobile'], " ", '</dd><br/>'?>
 		</dl>
 
-		<input type="submit" name="modifier" value="Modifier" <a href="form_modif.php?numC="<?= $info['id']?>"></a>
-
-		echo "<td><a href='form_modif.php?numC=". $info['id'] ."'>Modifier</a></td>";
-
-<?php	
+<?php
+		echo "<a class='btn btn-primary' href='form_modif.php?numC=". $info['id'] ."'>Modifier</a>";
 
 	}
 

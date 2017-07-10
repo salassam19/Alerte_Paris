@@ -8,7 +8,7 @@ if (!isset($_SESSION['email'])) {
 }
 else
 {}*/
-//try{
+
 //connection au serveur
   	$bdd = new PDO('mysql:host=localhost;dbname=clients', "root", "");
 
@@ -22,28 +22,20 @@ $mobile = $_POST['mobile'];
 $id = $_POST['id'];
 
     $req = "UPDATE particuliers
-            SET nom = $nom,
-                prenom = $prenom,
-                mail = $mail,
-                mobile = $mobile
-                WHERE id= $id ";
+            SET nom = '".$nom."',
+                prenom = '".$prenom."',
+                mail = '".$mail."',
+                mobile = '".$mobile."'
+                WHERE id= '".$id."' ";
 
 
-    // Prepare statement
-    $info = $bdd->prepare($req);
+    // Execution de la requête
+    $bdd->exec($req);
 
-    // execute the query
-    $info->execute();
+    echo "Modifications prises en compte.";
     
-    // echo a message to say the UPDATE succeeded
-    echo $info->rowCount() . " champs modifiés avec succès";
+    header('Location:moncompte.php');
 
-    //}
-/*catch(PDOException $e)
-    {
-    echo $req . "<br>" . $e->getCode();
-    }*/
-
-$bdd = null;
+    exit();
 
 ?>

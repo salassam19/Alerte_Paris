@@ -1,3 +1,5 @@
+<?php include('index.php') ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,26 +29,26 @@
 		<input type="hidden" name="id" value="<?= $info['id'] ?>">
 
 	<p>
-		<label>Nom</label>
+		<label>Nom :</label>
 		<input type="text" id="nom" name="nom" value="<?= $info['nom'] ?>">
 	</p>
 
 	<p>
-		<label>Prenom</label>
+		<label>Prenom :</label>
 		<input type="text" id="prenom" name="prenom" value="<?= $info['prenom']?>">
 	</p>
 
 	<p>
-		<label>Adresse Mail</label>
+		<label>Adresse Email :</label>
 		<input type="email" id="mail" name="mail" value="<?= $info['mail'] ?>">
 	</p>
 
 	<p>
-		<label>Téléphone portable</label>
+		<label>Téléphone portable :</label>
 		<input type="text" id="mobile" name="mobile" value="<?= $info['mobile'] ?>">
 	</p>
 
-	<p><input type="submit" value="Enregistrer les modifications"></p>
+	<input type="submit" class="btn btn-primary" value="Enregistrer les modifications"/>
 
 <?php 
 	}
