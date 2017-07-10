@@ -18,7 +18,7 @@
 	while ($info = $reponse->fetch()) {
 ?>		
 
-		<label><h3>Bienvenue </h3></label>
+		<label><h3>Bienvenue</h3></label>
 		<?php echo $info['prenom'], " ", $info['nom'], '<br/>' ?>
 
 		<dl>
