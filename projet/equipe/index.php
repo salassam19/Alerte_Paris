@@ -40,7 +40,10 @@
 		<div>
 			<?php include('corps_indx.php') ?>
 		</div>
-	</main> 
+	</main>
+ 	<nav class="">
+		<?php include('contact.php') ?>
+	</nav>
 
 	<footer>
 	</footer>
