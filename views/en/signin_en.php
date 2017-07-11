@@ -1,3 +1,7 @@
+<?php
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,7 +17,7 @@
 		<p>These informations can be modified at any time.<br>
 		Fields marked with an asterisk are required.</p><br><br>
 
-		<form class="form-horizontal" method="GET" action="../../functions/functions_main_form.php">
+		<form class="form-horizontal" method="POST" action="../../functions/functions_signin_en.php">
 
 		<!-- On demande à l'utilisateur son nom et son prénom !-->
 			<div>
@@ -29,6 +33,12 @@
 			<div>
 				<label class="label" for="birthday">Date of birth : <span class="asterisque">*</span></label>
 				<input class="required champ one_line" type="date" name="birthday" value="" required><br><br>
+			</div>
+
+			<div>
+				<label class="label" for="gender">Gender : <span class="asterisque">*</span></label>
+				<input class="required champ one_line" type="radio" name="gender" value="male" required>Man<br>
+				<input class="required champ one_line" type="radio" name="gender" value="female" required>Woman<br><br>
 			</div>
 
 			<!-- On demande à l'utilisateur ses coordonnées personnelles !-->

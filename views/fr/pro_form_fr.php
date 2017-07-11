@@ -1,3 +1,7 @@
+<?php
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -14,7 +18,7 @@
 		<p>Ces informations sont modifiables à tout moment.<br>
 		Les champs précédés d'un astérisque sont obligatoires.</p><br><br>
 
-		<form method="GET" action="../../functions/functions_pro_form.php">
+		<form method="POST" action="../../functions/fr/functions_pro_form.php">
 
 			<!-- L'utilisateur doit enter le nom de la société pour laquelle il travaille !-->
 			<div>

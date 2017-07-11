@@ -1,3 +1,7 @@
+<?php
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -13,7 +17,7 @@
 		<p>These informations can be modified at any time.<br>
 		Fields marked with an asterisk are required.</p><br><br>
 
-		<form method="GET" action="../../functions/functions_pro_form.php">
+		<form method="POST" action="../../functions/functions_pro_form.php">
 
 			<!-- L'utilisateur doit enter le nom de la société pour laquelle il travaille !-->
 			<div>
