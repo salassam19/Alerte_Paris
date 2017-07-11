@@ -444,7 +444,7 @@ Intro Section
   /* vertically align its content */
   display: table;
   width: 100%;
-  margin-top: 60px;
+  /*margin-top: 60px;*/
   height: 300px;
  /* background: url(../img/portadaAlerta.png) no-repeat center center;*/
   background: url(carousel.php);
@@ -464,7 +464,7 @@ Intro Section
 @media only screen and (min-width: 1024px) {
   .cd-hero {
     height: 600px;
-    margin-top: 80px;
+    /*margin-top: 80px;*/
   }
 }
 

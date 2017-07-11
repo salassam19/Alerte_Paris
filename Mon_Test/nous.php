@@ -32,7 +32,7 @@
 		<div>
 			<img id="vincent" src="..." alt="..." class="img-circle">
 			<h4>Vincent DARRE</h4>
-			<p>Je suis rogolo :P</p>
+			<p>Je suis rigolo :P</p>
 		</div>
 		<div>
 			<<img id="aurore" src="..." alt="..." class="img-circle">
