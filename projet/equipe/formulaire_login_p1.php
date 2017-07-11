@@ -10,7 +10,7 @@
 	</a>
 	<!-- Login and Sign In -->
 	<nav id="cd-navigation">
-		<a href="login.php"><button type="submit" class="btn btn-default btn-lg" style="width: 90px; height: 40px; background: #25283D;  color: white;" name="Validez">Login</p></button></a>
-		<a href="index_main_form_fr.php"><button type="submit" class="btn btn-default btn-lg" style="width: 90px; height: 40px; background: #25283D; color: white;" name="Validez">Sign-In</button></a>
+		<a href="login.php"><button type="submit" class="btn btn-default btn-lg" style="width: 90px; height: 35px; background: #25283D;  color: white;" name="Validez">Login</p></button></a>
+		<a href="index_main_form_fr.php"><button type="submit" class="btn btn-default btn-lg" style="width: 90px; height: 35px; background: #25283D; color: white;" name="Validez">Sign-In</button></a>
 	</nav>
 </nav>

@@ -6,6 +6,6 @@
 		<?php include('presentation.php') ?>
 	</div>
 	<div class="col-md-6 sidebar_droite">
-		<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1zAHgpTqKBW_OgeY8pPh6_f41ge0" width="640" height="480"></iframe>
+		<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1zAHgpTqKBW_OgeY8pPh6_f41ge0" width="640" height="480" style="padding-right: 1%"></iframe>
 	</div>
 </div>
