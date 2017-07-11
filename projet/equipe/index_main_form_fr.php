@@ -1,13 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr" class="no-js">
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="style_form.css">
-		<title>Inscription - Alerte Paris</title>
-	</head>
+	<link href="https://fonts.googleapis.com/css?family=David+Libre|Hind:400,700" rel="stylesheet">
 
-	<body>
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+	<title>Alerte Paris</title>
+</head>
+<body>
+	<!--Barre de navegation et logo  -->
+	<header class="cd-auto-hide-header">
+		<?php include('logo.php') ?>
+
+		<!-- .cd-primary-nav -->
+		<?php include('formulaire_login_p1.php') ?>
+	</header>
+	<section class="cd-hero">
+		<div class="cd-hero-content">
+			<?php include('carousel.php') ?>
+			<!-- your content here -->
+		</div>
+	</section> <!-- .cd-hero -->
+
+	<nav class="cd-secondary-nav">
+		<?php include('nav2.php') ?>
+	</nav> <!-- .cd-secondary-nav -->
 
 		<h4>Inscription</h4>
 		<p>Ces informations sont modifiables à tout moment.</p>
@@ -16,6 +41,16 @@
 		<form onsubmit="return verif_form()"">
 
 		<!-- On demande les infos nécessaires à la création d'un compte !-->
+			<div>
+				<label for="last_name">Sexe : <span class="asterisque">*</span></label>
+				<label class="radio-inline">
+					<input type="radio" name="sexe" id="homme" value="homme"> Homme
+				</label>
+				<label class="radio-inline">
+					<input type="radio" name="sexe" id="femme" value="femme"> Femme
+				</label>
+			</div>
+			<br/>
 			<div>
 				<label for="last_name">Nom : <span class="asterisque">*</span></label>
 				<input class="required champ one_line"  type="text" name="last_name" value="" required><br><br>
@@ -324,10 +359,17 @@
 			<!-- Le choix fait par l'utilisateur le dirigera vers le formulaire correspondant (particulier ou professionnel) !-->
 			<div>
 				<p>Je suis : </p>
-				<input type="radio" name="individual_register"><label> Un particulier</label><br>
-				<input type="radio" name="pro_register"><label> Un professionnel</label><br><br><br><br>
-			</div> 
-
+				<label class="radio-inline">
+					<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Un particulier
+				</label><br/>
+				<label class="radio-inline">
+					<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Un professionnel
+				</label>
+			</div>
+			<br/>
+			<dr/>
+			<br/>
+			<dr/>
 			<!-- Checkbox à cocher pour que l'utilisateur n'ai pas à introduire à chaque connexion son id et son password !-->
 			<div>
 				<input type="checkbox" name="remember_me">
