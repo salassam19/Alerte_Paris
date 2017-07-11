@@ -1,10 +1,14 @@
+<?php
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="../../style_form.css">
-		<title>Inscription - Alerte Paris</title>
+		<title>Inscription  - Alerte Paris</title>
 	</head>
 
 	<body>
@@ -13,7 +17,7 @@
 		<p>Ces informations sont modifiables à tout moment.<br>
 		Tous les champs précédés d'un astérisque sont obligatoires.</p><br><br><br>
 		
-		<form method="GET" action="../../functions/functions_main_form.php">
+		<form method="POST" action="../../functions/fr/functions_signin_fr.php">
 
 		<!-- On demande à l'utilisateur son nom et son prénom !-->
 			<div>

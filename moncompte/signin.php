@@ -1,66 +1,87 @@
-<?php require('index.php'); ?>
-<br>
-
 <?php 
+    require('index.php'); 
+    include('functions.php');
 
-	if(isset($_POST['submit'])){
-		$username = htmlentities($_POST['pseudo']);
-		$password = $_POST['password'];
-		$repeatpassword = htmlentities($_POST['repeatpassword']);
+    $bdd = connexionbdd();
 
-	if (!empty($username && $password)){
+if (isset($_POST['forminscription'])){
 
-		if($password == $repeatpassword){
+        $pseudo = htmlspecialchars($_POST['pseudo']);
+        $mdp = sha1($_POST['mdp']);
+        $mdp2 = sha1($_POST['mdp2']);
 
-		$password = md5($password);
+    if (!empty($_POST['pseudo']) && !empty($_POST['mdp']) && !empty($_POST['mdp2'])) {
 
-		$bdd = new PDO('mysql:host=localhost;dbname=clients', "root", "");
+        $pseudolength = strlen($pseudo);
 
-		$req = "INSERT INTO particuliers VALUES '".$username."', '".$mail."', '".$password."' ";
-		
-		$bdd->exec($req);
+        if ($pseudolength <= 255){
 
-		die("Inscription terminer <a href='login.php'>Login</a>");
-		}else{echo "Les 2 password doivent être identique";}
-	}else{
-		echo "Veuillez saisir tous les champs";
-	}
+            $reqpseudo = $bdd->prepare('SELECT * FROM membre WHERE pseudo = ?');
+            $reqpseudo->execute(array($pseudo));
+            $pseudoexist = $reqpseudo->rowCount();
+            if ($reqpseudo == 0){
 
 
+                    if ($mdp == $mdp2){
 
+                        $req = "INSERT INTO `membre` (`pseudo`, `password`) VALUES ('$pseudo', '$mdp')";
+                       
+                        $req2 = $bdd->exec($req);
 
+                        $erreur = "Votre compte a bien été créé !";header('Location:login.php');
 
+                    }
+                    else
+                    {
 
+                        $erreur = "Vos mot de passes ne correspondent pas";
+                    }
+            }
+            else
+            {
+                $erreur = "Pseudo déjà utilisé !";
+            }
 
+        }
+        else
+        {
 
+            $erreur = "Votre pseudo ne doit pas dépasser 255 caractères !";
+        }
 
-	}
+    }
+    else
+    {
 
+        $erreur = "Tous les champs doivent être remplis !";
+    }
 
-
+}
 
 ?>
 
-
-
-
 <h1>S'Inscrire</h1>
 
-<form action="signin.php" method="POST">
+<form action="" method="POST">
 	<div class="form-group">
 		<label>Pseudo</label>
-		<input type="text" name="pseudo" class="form-control" />
+		<input type="text" name="pseudo" class="form-control" value="<?php if(isset($pseudo)) {echo $pseudo; }?>" />
 	</div>
 
 	<div class="form-group">
 		<label>Password</label>
-		<input type="password" name="password" class="form-control" />
+		<input type="password" name="mdp" class="form-control" />
 	</div>
 
 	<div class="form-group">
 		<label>Retapez votre password</label>
-		<input type="password" name="repeatpassword" class="form-control" />
+		<input type="password" name="mdp2" class="form-control" />
 	</div>
 
-	<input type="submit" value="S'Enregistrer" id="submit" name="submit" class="btn btn-primary">
+	<input type="submit" value="Inscription" id="submit" name="forminscription" class="btn btn-primary">
 </form>
+<?php
+if (isset($erreur)){
+    echo '<div style="color: red">'.$erreur.'</div>';
+}
+?>

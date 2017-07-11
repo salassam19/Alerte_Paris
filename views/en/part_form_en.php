@@ -1,3 +1,7 @@
+<?php
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -13,7 +17,7 @@
 		<p>These informations can be modified at any time.<br>
 		Fields marked with an asterisk are required.</p><br><br><br><br><br>
 
-		<form method="GET" action="../../functions/functions_part_form.php">
+		<form method="POST" action="../../functions/functions_part_form.php">
 
 			<!-- On se renseigne sur le nombre de personnes que l'utilisateur peut accueillir !-->
 			<div>

@@ -45,14 +45,14 @@
 			<p>Je suis rogolo :P</p>
 		</div>
 		<div>
-			<<img id="aurore" src="..." alt="..." class="img-thumbnail">
+			<img id="aurore" src="..." alt="..." class="img-thumbnail">
 			<h4>Aurore TRINCI</h4>
 			<p>Je rigole trop</p>
 		</div>
 		<div>
-			<img id="salim" src="img/Salim_Vador.jpg" alt="..." class="img-thumbnail" style="width: 100px;">
+			<a href="img/Salim_Vador.jpg"><img id="salim" src="img/Salim_Vador.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
 			<h4>Salim ASSAMEUR</h4>
-			<p>Je suis super lourd dans tous les sens du term</p>
+			<p></p>
 		</div>
 		<div>
 			<img id="david" src="..." alt="..." class="img-thumbnail">
@@ -60,6 +60,9 @@
 			<p>Je suis toujours dans mon code</p>
 		</div>
 	</div>
+	<nav class="">
+		<?php include('contact.php') ?>
+	</nav>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 	<script>
 		if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
