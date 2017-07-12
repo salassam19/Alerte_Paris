@@ -1,5 +1,4 @@
 <div>
-	<h3>« Alerte Paris, le site solidaire en cas de catastrophe »</h3>
 	<p>
 		Les risques liés aux catastrophes naturelles augmentent et constituent une menace croissante pour les pays, leur économie et leur population.
 	</p>

@@ -396,9 +396,9 @@ Main content
 .cd-main-content p {
   max-width: 1024px;
   line-height: 1.6;
-  margin: 2em auto;
+ /*margin: 2em auto;*/
   font-family: "David Libre", serif;
-  color: #a5a8a9;
+  color: #111719;
 }
 @media only screen and (min-width: 1024px) {
   .cd-main-content {
@@ -411,7 +411,8 @@ Main content
     margin-top: 70px;
   }
   .cd-main-content p {
-    font-size: 2.4rem;
+    font-size: 2rem;
+    padding: 20px;
   }
 }
 
@@ -456,6 +457,8 @@ Intro Section
   vertical-align: middle;
   text-align: center;
 }
+
+
 @media only screen and (min-width: 768px) {
   .cd-hero {
     height: 400px;
@@ -463,7 +466,7 @@ Intro Section
 }
 @media only screen and (min-width: 1024px) {
   .cd-hero {
-    height: 600px;
+    height: 600px;.carousel-inner
     /*margin-top: 80px;*/
   }
 }
@@ -476,7 +479,9 @@ Intro Section
 -------------------------------- */
 
 .col-md-2{
+
 }
+  
 
 .col-md-8{
 }
