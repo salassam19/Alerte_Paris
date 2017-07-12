@@ -1,0 +1,63 @@
+/* -------------------------------- 
+
+    contact.php 
+
+-------------------------------- */
+#contact {
+  font-family: Calibri, Arial, Serif;
+  font-size: 1.3em;
+}
+.formulaire {
+  margin-left: -450px;
+  margin-right: 0;
+  padding-right: 0;
+  width: 2030px;
+  padding-left: 40%;
+  text-align: left;
+  background-color: #25283D;
+}
+.titre {
+  font-family: Verdana, Arial, Serif;
+  font-size: 2.3em;
+  font-weight: bold;
+  width: 2030px;
+  padding-top: 50px;
+  text-align: center;
+  margin-left: -430px;
+  color: #fff;
+}
+.block {
+  display: block;
+  position: absolute;
+  float: left;
+}
+.libelle {
+  margin-top: 0;
+  font-weight: bold;
+  color: #fff;
+}
+.entree_texte {
+  width: 510px;
+  height: 50px;
+}
+.message {
+  width: 600px;
+  height: 313px;
+  font-family: Calibri, Arial, Serif;
+  font-size: 1em;
+}
+.label_message, .message {
+  margin-left: 640px;
+}
+.boutton {
+  text-align: center;
+  margin-top: 430px;
+  margin-left: 450px;
+  width: 300px;
+  height: 50px;
+  font-family: Calibri, Arial, Serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: #fff;
+  color: #25283D;;
+}

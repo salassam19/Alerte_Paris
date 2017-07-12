@@ -1,7 +1,3 @@
-<?php
-	session_start();
-?>
-
 <!DOCTYPE html>
 <html>
 
@@ -79,6 +75,12 @@
 			<div>
 				<label class="label" for="home_phone">Business phone : </label>
 				<input class="champ one_line" type="number" name="home_phone" value=""><br><br><br>
+			</div>
+
+			<div>
+				<label for="host">I would like to host people affected by natural or industrial disaster.<span class="asterisque">*</span></label><br>
+				<input type="radio" class="radio" name="host" value="yes" checked="checked" /><label for="host"> Oui </label><br>
+				<input type="radio" class="radio" name="host" value="no" /><label for="host"> Non </label><br><br><br><br>
 			</div>
 
 			<!-- On précise à l'utilisateur que nous allons procéder à une vérification avant la validation de son inscription !-->

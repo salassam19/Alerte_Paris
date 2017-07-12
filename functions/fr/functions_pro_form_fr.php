@@ -1,17 +1,11 @@
 <?php
 
-	foreach($_POST as $key => $value){
-		if (!empty($value)) {
-			// nos champs sont remplis
-			if ($key === "post_code") {
-				// on vérifie si le code postal est un entier
-				if (is_int($value)) {
-					var_dump("Le code postal est valide.");
-				} else {
-					alert ("Le code postal n'est pas valide.");
-				}
-			}
-		} else {
-			header("Location:pro_form_fr.php");
+	
 
+	if ($_POST['host'] === 'yes') {
+		include("../../views/fr/part_form_fr.php");
+	} else {
+		echo ('Votre demande d\'inscription a bien été envoyée. Vos identifiants vous seront envoyés après validation de votre inscription par nos services.<br /> Pour revenir à la page d\'accueil, cliquez <a href="../../projet/equipe/index.php">ici</a>.');
+	}
+	
 ?>

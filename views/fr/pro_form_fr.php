@@ -1,7 +1,3 @@
-<?php
-	session_start();
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -77,6 +73,13 @@
 			<div>
 				<label class="label" for="home_phone">Téléphone professionnel : </label>
 				<input class="champ one_line" type="number" name="home_phone" value=""><br><br><br>
+			</div>
+
+			<!-- On demande à l'utilisateur s'il souhaite héberger des personnes sinistrées, si oui, on fait un include vers le formulaire correspondant !-->
+			<div>
+				<label for="host">Je souhaite héberger des personnnes sinistrées par une catastrophe naturelle ou industrielle.<span class="asterisque">*</span></label><br>
+				<input type="radio" class="radio" name="host" value="yes" checked="checked" /><label for="host"> Oui </label><br>
+				<input type="radio" class="radio" name="host" value="no" /><label for="host"> Non </label><br><br><br><br>
 			</div>
 
 			<!-- On précise à l'utilisateur que nous allons procéder à une vérification avant la validation de son inscription !-->
