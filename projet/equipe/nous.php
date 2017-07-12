@@ -35,27 +35,27 @@
 	</nav> <!-- .cd-secondary-nav -->
 	<div>
 		<div>
-			<img id="veronica" src="..." alt="..." class="img-thumbnail">
+			<a href="img/VERONICA1.jpg"><img id="veronica" src="img/VERONICA1.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
 			<h4>Veronica OCHOA TEJEDA</h4>
 			<p>Je suis </p>
 		</div>
 		<div>
-			<img id="vincent" src="..." alt="..." class="img-thumbnail">
+			<a href="img/VINCENT1.jpg"><img id="vincent" src="img/VINCENT1.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
 			<h4>Vincent DARRE</h4>
 			<p>Je suis rogolo :P</p>
 		</div>
 		<div>
-			<img id="aurore" src="..." alt="..." class="img-thumbnail">
+			<a href="img/AURORE1.jpg"><img id="aurore" src="img/AURORE1.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
 			<h4>Aurore TRINCI</h4>
 			<p>Je rigole trop</p>
 		</div>
 		<div>
-			<a href="img/Salim_Vador.jpg"><img id="salim" src="img/Salim_Vador.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
+			<a href="img/SALIM.gif"><img id="salim" src="img/SALIM.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
 			<h4>Salim ASSAMEUR</h4>
-			<p></p>
+			<p>Le sympathique associable</p>
 		</div>
 		<div>
-			<img id="david" src="..." alt="..." class="img-thumbnail">
+			<a href="img/DAVID.jpg"><img id="david" src="img/DAVID.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
 			<h4>David AMORIM</h4>
 			<p>Je suis toujours dans mon code</p>
 		</div>
