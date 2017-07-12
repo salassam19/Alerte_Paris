@@ -37,12 +37,12 @@
 		<div>
 			<a href="img/VERONICA1.jpg"><img id="veronica" src="img/VERONICA1.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
 			<h4>Veronica OCHOA TEJEDA</h4>
-			<p>Je suis </p>
+			<p></p>
 		</div>
 		<div>
 			<a href="img/VINCENT1.jpg"><img id="vincent" src="img/VINCENT1.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
 			<h4>Vincent DARRE</h4>
-			<p>Je suis rogolo :P</p>
+			<p>Le super blagueur</p>
 		</div>
 		<div>
 			<a href="img/AURORE1.jpg"><img id="aurore" src="img/AURORE1.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
@@ -57,7 +57,7 @@
 		<div>
 			<a href="img/DAVID.jpg"><img id="david" src="img/DAVID.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
 			<h4>David AMORIM</h4>
-			<p>Je suis toujours dans mon code</p>
+			<p></p>
 		</div>
 	</div>
 	<nav class="">
