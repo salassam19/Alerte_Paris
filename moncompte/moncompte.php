@@ -2,6 +2,8 @@
 include('index.php');
 require('functions.php');
 
+session_start();
+
 ?>
 
 <!DOCTYPE html>
@@ -12,8 +14,6 @@ require('functions.php');
 <body>
 
 <?php
-
-session_start();
 
 $bdd = connexionbdd();
 
