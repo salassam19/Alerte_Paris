@@ -19,7 +19,7 @@
 			<div class="block">
 				<div class="form-group">
 					<label for="message" class="libelle label_message">Votre message : <span class="asterisque">*</span></label><br>
-					<textarea name="message" placeholder="Ecrivez votre message ici..." class="form-control" required></textarea><br><br><br>
+					<textarea name="message" placeholder="Ecrivez votre message ici..." class="form-control" rows="14" cols="45" required></textarea><br><br><br>
 				</div>
 			</div>
 			<div class="form-group">
