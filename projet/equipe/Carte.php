@@ -8,7 +8,7 @@
 	
 	<!-- CSS BOOTSTRAP -->
 	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css">
-	<link rel="stylesheet" href="CSS/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" type="text/css" href="css/style_contact.css">
 	<Link  rel = "icône de  raccourci " href = "img/favicon.ico"  type = "image / x-icon" >
 	<title>Alerte Paris !</title>
 
@@ -169,7 +169,9 @@
 		</div>
 	</div>
 	</div>
-	
+ 	<nav class="">
+		<?php include('contact.php') ?>
+	</nav>	
 
 
 <!--

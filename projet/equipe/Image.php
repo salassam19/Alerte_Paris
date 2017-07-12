@@ -7,7 +7,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=David+Libre|Hind:400,700" rel="stylesheet">
 
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" type="text/css" href="css/style_contact.css">
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
@@ -33,6 +33,9 @@
 	<nav class="cd-secondary-nav">
 		<?php include('nav2.php') ?>
 	</nav> <!-- .cd-secondary-nav -->
+	 <nav class="">
+		<?php include('contact.php') ?>
+	</nav>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 	<script>
 		if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');

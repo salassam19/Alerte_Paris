@@ -6,8 +6,7 @@
 
 element.style{
   width: inherit;
-  height: 200px;
-  
+  height: 200px;  
 }
 
 #contact {
@@ -15,7 +14,7 @@ element.style{
   font-size: 1.3em;
 }
 .formulaire {
-  margin-left: 0px;*/
+  margin-left: 0px;
   margin-right: 0;
   padding-right: 0;
   width: 100%;
@@ -54,20 +53,20 @@ h2{
   width: 200px;
   height: 30px;
 }
-.entree_texte {
+.one_line {
   width: 510px;
   height: 50px;
 }
-.message {
+.form-control  {
   width: 450px;
   height: 200px;
   font-family: Calibri, Arial, Serif;
   font-size: 1em;
 }
-.label_message, .message {
+.label_message, .form-control {
   margin-left: 640px;
 }
-.boutton {
+.btn-success {
   text-align: center;
   margin-top: 430px;
   margin-left: 500px;
