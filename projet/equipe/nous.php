@@ -37,27 +37,47 @@
 		<div>
 			<a href="img/VERONICA1.jpg"><img id="veronica" src="img/VERONICA1.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
 			<h4>Veronica OCHOA TEJEDA</h4>
+			<div>
+				<a href="mailto:veronikot11@yahoo.fr?subject=Ceci est un sujet de mail">veronikot11@yahoo.fr</a>
+			</div>
 			<p></p>
 		</div>
 		<div>
 			<a href="img/VINCENT1.jpg"><img id="vincent" src="img/VINCENT1.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
 			<h4>Vincent DARRE</h4>
 			<p>Le super blagueur</p>
+			<div>
+				<a href="mailto:vincent.darre64@gmail.com@yahoo.fr?subject=Ceci est un sujet de mail">vincent.darre64@gmail.com</a>
+			</div>
+
+
 		</div>
 		<div>
 			<a href="img/AURORE1.jpg"><img id="aurore" src="img/AURORE1.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
 			<h4>Aurore TRINCI</h4>
 			<p>Je rigole trop</p>
+			<div>
+				<a href="mailto:aurore.trinci@gmail.com?subject=Ceci est un sujet de mail">aurore.trinci@gmail.com</a>
+			</div>
 		</div>
 		<div>
 			<a href="img/SALIM.gif"><img id="salim" src="img/SALIM.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
 			<h4>Salim ASSAMEUR</h4>
 			<p>Le sympathique associable</p>
+			<div>
+				<a href="mailto:salim10_4@msn.com?subject=Ceci est un sujet de mail">salim10_4@msn.com</a>
+			</div>
+
 		</div>
 		<div>
 			<a href="img/DAVID.jpg"><img id="david" src="img/DAVID.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
 			<h4>David AMORIM</h4>
 			<p></p>
+			<div>
+				<a href="mailto:david.amorim@live.fr?subject=Ceci est un sujet de mail">david.amorim@live.fr</a>
+			</div>
+
+
 		</div>
 	</div>
 	<nav class="">
