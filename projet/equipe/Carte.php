@@ -4,11 +4,12 @@
 	<meta charset="utf-8" />
 	<link rel="icon" type="image/png" href="favi.ico" />
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style_cartes.css">
 	
 	<!-- CSS BOOTSTRAP -->
 	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css">
 	<link rel="stylesheet" href="CSS/reset.css"> <!-- CSS reset -->
-	<Link  rel = "icône de  raccourci " href = "IMG/favicon.ico"  type = "image / x-icon" >
+	<Link  rel = "icône de  raccourci " href = "img/favicon.ico"  type = "image / x-icon" >
 	<title>Alerte Paris !</title>
 
 	<meta charset="UTF-8">
@@ -45,13 +46,13 @@
 	</nav> <!-- .cd-secondary-nav -->
 
 
-<div class="carte_general">
+<div class="carte_General">
 	<img src="img/Cartographie-des-risques-naturels-par-arrdt.jpg">
 </div>
 
-
+<div class="blogCartes">
 	<div class="cartes">
-		<div style="float: left;">
+		<div>
 			<h4>Carte_1_Arr 01,02,03,04,11</h4>
 				<a href="img/carte_1_Arr 01,02,03,04,11.jpg"><img id="carte_1" src="img/carte_1_Arr 01,02,03,04,11.jpg" class="img-thumbnail" style="width: 300px"></a>
 			<div class=""><a class="link-download" href="img/carte_1_Arr 01,02,03,04,11.pdf" target="_blank" data-xiti-site="566496" data-xiti-name="article::corps_article::lien_document::carte_1_Arr 01,02,03,04,11.pdf" data-xiti-type="download" data-xiti-niv2="11">
@@ -59,7 +60,7 @@
             </div>
 		</div>
 
-		<div style="float: left;">
+		<div>
 			<h4>Carte_2_Arr 05, 06, 07</h4>
 				<a href="img/carte_2_Arr 05, 06, 07.jpg"><img id="carte_2" src="img/carte_2_Arr 05, 06, 07.jpg" class="img-thumbnail" style="width: 300px"></a>
 			<div class="">
@@ -68,7 +69,7 @@
 			</div>
 		</div>
 
-		<div style="float: left;">
+		<div>
 			<h4>Carte_3_Arr 08</h4>
 			<a href="img/carte_3_Arr 08.jpg"><img id="carte_3" src="img/carte_3_Arr 08.jpg" class="img-thumbnail" style="width: 300px"></a>
 			<div class="">
@@ -78,7 +79,7 @@
 			</div>
 		</div>
 
-		<div style="float: left;">
+		<div>
 			<h4>Carte_4_Arr 09, 10</h4>
 			<a href="img/carte_4_Arr 09, 10.jpg"><img id="carte_4" src="img/carte_4_Arr 09, 10.jpg" class="img-thumbnail" style="width: 300px"></a>
 			<div class="">
@@ -87,16 +88,16 @@
 			</div>
 		</div>
 
-		<div style="float: left;">
+		<div>
 			<h4>Carte_5_Arr 12</h4>
 			<a href="img/carte_5_Arr 12.jpg"><img id="carte_5" src="img/carte_5_Arr 12.jpg" class="img-thumbnail" style="width: 300px"></a>
-			<div class="">
+			<div>
 				<a class="link-download" href="img/carte_5_Arr 12.pdf" target="_blank" data-xiti-site="566496" data-xiti-name="article::corps_article::lien_document::carte_5_Arr 12.pdf" data-xiti-type="download" data-xiti-niv2="11">
 				<span>Carte_5_Arr 12</span> <img title="télécharger" alt="télécharger" src="img/favicon.ico">PDF</a>
 			</div>
 		</div>
 
-		<div style="float: left;">
+		<div>
 			<h4>Carte_6_Arr 13</h4>
 			<a href="img/carte_6_Arr 13.jpg"><img id="carte_6" src="img/carte_6_Arr 13.jpg" class="img-thumbnail" style="width: 300px"></a>
 			<div class="">
@@ -105,7 +106,7 @@
 			</div>
 		</div>
 
-		<div style="float: left;">
+		<div>
 			<h4>carte_7_Arr 14</h4>
 			<a href="img/carte_7_Arr 14.jpg"><img id="carte_7" src="img/carte_7_Arr 14.jpg" class="img-thumbnail" style="width: 300px"></a>
 			<div class="">
@@ -114,7 +115,7 @@
 			</div>
 		</div>
 
-		<div style="float: left;">
+		<div>
 			<h4>Carte_8_Arr 15</h4>
 			<a href="img/carte_8_Arr 15.jpg"><img id="carte_8" src="img/carte_8_Arr 15.jpg" class="img-thumbnail" style="width: 300px"></a>
 			<div class="">
@@ -122,51 +123,53 @@
 				<span>carte_8_Arr 15</span> <img title="télécharger" alt="télécharger" src="img/favicon.ico">PDF</a>
 			</div>
 		</div>
-		<div style="float: left;">
+		<div>
 			<h4>Carte_9_Arr 16</h4>
 			<a href="img/carte_9_Arr 16.jpg"><img id="carte_9" src="img/carte_9_Arr 16.jpg" class="img-thumbnail" style="width: 300px"></a>
-			<div class="">
+			<div>
 				<a class="link-download" href="img/carte_9_Arr 16.pdf" target="_blank" data-xiti-site="566496" data-xiti-name="article::corps_article::lien_document::carte_9_Arr 16.pdf" data-xiti-type="download" data-xiti-niv2="11">
 				<span>carte_9_Arr 16</span> <img title="télécharger" alt="télécharger" src="img/favicon.ico">PDF</a>
 			</div>
 		</div>
 
-		<div style="float: left;">
+		<div>
 			<h4>carte_10_Arr 17</h4>
 			<a href="img/carte_10_Arr 17.jpg"><img id="carte_10" src="img/carte_10_Arr 17.jpg" class="img-thumbnail" style="width: 300px"></a>
-			<div class="">
+			<div>
 				<a class="link-download" href="img/carte_10_Arr 17.pdf" target="_blank" data-xiti-site="566496" data-xiti-name="article::corps_article::lien_document::carte_10_Arr 17.pdf" data-xiti-type="download" data-xiti-niv2="11">
 				<span>carte_10_Arr 17</span> <img title="télécharger" alt="télécharger" src="img/favicon.ico">PDF</a>
 			</div>
 		</div>
 
-		<div style="float: left;">
+		<div>
 			<h4>Carte_11_Arr 18</h4>
 			<a href="img/carte_11_Arr 18.jpg"><img id="carte_11" src="img/carte_11_Arr 18.jpg" class="img-thumbnail" style="width: 300px"></a>
-			<div class="">
+			<div>
 				<a class="link-download" href="img/carte_11_Arr 18.pdf" target="_blank" data-xiti-site="566496" data-xiti-name="article::corps_article::lien_document::carte_11_Arr 18.pdf" data-xiti-type="download" data-xiti-niv2="11">
 				<span>carte_11_Arr 18</span> <img title="télécharger" alt="télécharger" src="img/favicon.ico">PDF</a>
 			</div>
 		</div>
 
-		<div style="float: left;">
+		<div>
 			<h4>Carte_12_Arr 19</h4>
 			<a href="img/carte_12_Arr 19.jpg"><img id="carte_12" src="img/carte_12_Arr 19.jpg" class="img-thumbnail" style="width: 300px"></a>
-			<div class="">
+			<div>
 				<a class="link-download" href="img/carte_12_Arr 19.pdf" target="_blank" data-xiti-site="566496" data-xiti-name="article::corps_article::lien_document::carte_12_Arr 19.pdf" data-xiti-type="download" data-xiti-niv2="11">
 				<span>carte_12_Arr 19</span> <img title="télécharger" alt="télécharger" src="img/favicon.ico">PDF</a>
 			</div>
 		</div>
 
-		<div style="float: left;">
+		<div>
 			<h4>Carte_13_Arr 20</h4>
 			<a href="img/carte_13_Arr 20.jpg"><img id="carte_13" src="img/carte_13_Arr 20.jpg" class="img-thumbnail" style="width: 300px"></a>
-			<div class="">
+			<div>
 				<a class="link-download" href="img/carte_13_Arr 20.pdf" target="_blank" data-xiti-site="566496" data-xiti-name="article::corps_article::lien_document::carte_13_Arr 20.pdf" data-xiti-type="download" data-xiti-niv2="11">
 				<span>carte_13_Arr 20</span> <img title="télécharger" alt="télécharger" src="img/favicon.ico">PDF</a>
 			</div>
 		</div>
 	</div>
+	</div>
+	
 
 
 <!--
