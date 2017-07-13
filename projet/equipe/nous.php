@@ -37,10 +37,10 @@
 		<div>
 			<a href="img/VERONICA1.jpg"><img id="veronica" src="img/VERONICA1.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
 			<h4>Veronica OCHOA TEJEDA</h4>
+			<p>La chercheuse</p>
 			<div>
 				<a href="mailto:veronikot11@yahoo.fr?subject=Ceci est un sujet de mail">veronikot11@yahoo.fr</a>
 			</div>
-			<p></p>
 		</div>
 		<div>
 			<a href="img/VINCENT1.jpg"><img id="vincent" src="img/VINCENT1.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
@@ -55,7 +55,7 @@
 		<div>
 			<a href="img/AURORE1.jpg"><img id="aurore" src="img/AURORE1.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
 			<h4>Aurore TRINCI</h4>
-			<p>Je rigole trop</p>
+			<p>La fille qui rigole tous le temps (surtout seul)</p>
 			<div>
 				<a href="mailto:aurore.trinci@gmail.com?subject=Ceci est un sujet de mail">aurore.trinci@gmail.com</a>
 			</div>
@@ -72,7 +72,7 @@
 		<div>
 			<a href="img/DAVID.jpg"><img id="david" src="img/DAVID.jpg" alt="..." class="img-thumbnail" style="width: 250px;"></a>
 			<h4>David AMORIM</h4>
-			<p></p>
+			<p>Le petit genie</p>
 			<div>
 				<a href="mailto:david.amorim@live.fr?subject=Ceci est un sujet de mail">david.amorim@live.fr</a>
 			</div>
